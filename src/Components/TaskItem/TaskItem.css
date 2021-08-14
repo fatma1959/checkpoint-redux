@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+     
+  }
+.Done{
+    text-decoration: line-through;
+}
+.task{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    border-radius: 6px;
+    border:none;
+    margin: 50px auto;
+    background: linear-gradient(
+      90deg,
+      rgb(20, 200, 255) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+    padding: 5px 10px;
+    font-size:larger;
+
+}
+
+
